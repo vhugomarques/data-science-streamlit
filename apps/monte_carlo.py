@@ -2,7 +2,7 @@ import numpy as np
 import streamlit as st
 import matplotlib.pyplot as plt
 def app():
-    st.title("Simulation Monte Carlo")
+    st.title("Monte Carlo Simulation")
 
     st.write("This is a sample of Monte Carlo in the mutliapp.")
     st.write("See `apps/monte_carlo.py` to know how to use it.")
@@ -23,7 +23,7 @@ def app():
 
     #Calcula pi
     estimate = 4*len(inside)/len(x)
-    title='Estimative of $\pi$: '+str(estimate)+' with '+str(n)+' iterations'
+    title='$\pi$: '+str(estimate)
 
     #Plot
     fig = plt.figure(figsize=(8,8))
