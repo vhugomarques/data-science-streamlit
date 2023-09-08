@@ -5,9 +5,9 @@ from apps import home, confidence_interval, data_stats, monte_carlo # import you
 app = MultiApp()
 
 # Add all your application here
-app.add_app("Home", home.app)
-app.add_app("Confidence Interval", confidence_interval.app)
-app.add_app("Data Stats", data_stats.app)
-app.add_app("Monte Carlo", monte_carlo.app)
+app.add_app("Principal", home.app)
+app.add_app("Intervalo de confiança", confidence_interval.app)
+app.add_app("Dados estatisticos", data_stats.app)
+app.add_app("Simulação Monte Carlo", monte_carlo.app)
 # The main app
 app.run()
